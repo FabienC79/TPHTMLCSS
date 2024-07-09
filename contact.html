@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TPHTMLCSS contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="Ressources/1039-800x200.jpg" alt="Banièrre 800x200">
+            <h1>Ceci est un gros titre dans le header du Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#Article3">Blog</a></li>
+                    <li>Gallerie</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form method="post" class="formulaire">
+                <fieldset>
+                    <legend>Formulaire de Contact</legend>
+                    <div>
+                        <label for="nom">Nom : </label>
+                        <input type="text" name="nom" id="nom" placeholder="Ex: Dupond" maxlength="30" minlength="2" required>
+                    </div>
+                    <div>
+                        <label for="email">Email : </label>
+                        <input type="email" name="email" id="email" placeholder="Ex: DDupond@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="commentaire">Laissez votre commentaire ici</label><br>
+                        <textarea placeholder="Commentez-ici" name="commentaire" id="commentaire" cols="70" rows="10" required></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox" checked><label for="checkbox">Envoi d'une copie</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Reset">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com">Youtube</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.Firefox.com">Firefox</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

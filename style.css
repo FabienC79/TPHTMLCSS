@@ -1,0 +1,54 @@
+body{
+    background-image: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+    position: relative;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 5em;
+    font-family: Impact;
+    font-weight: bold;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+.article{
+    border: solid, 1px, black;
+}
+
+.ImageArticle{
+    border: solid, #8D99AE, 2px;
+}
+
+.ImageArticleDiv{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    color: #D90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: #2B2D42;
+}
